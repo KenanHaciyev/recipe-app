@@ -1,9 +1,17 @@
 import './App.css'
+import {Col, Row} from "antd";
+import HomePage from "./Layouts/HomePage";
+import HeaderComponent from "./components/HeaderComponent";
 
 function App() {
 
   return (
-    <div>Hello world!!</div>
+      <Row justify='center' >
+          <Col>
+              <HeaderComponent/>
+              <HomePage/>
+          </Col>
+      </Row>
   )
 }
 

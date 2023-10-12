@@ -1,0 +1,53 @@
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	width: 330px;
+	height: 220px;
+	border-radius: 15px;
+	position: relative;
+	background-color: #d3d3d347;
+	z-index: 1;
+}
+
+.img {
+	display: block;
+	margin: 0 auto;
+	height: 180px;
+	width: 180px;
+	object-fit: cover;
+}
+
+.favourite {
+	position: absolute;
+	display: block;
+	top: 8px;
+	right: 7px;
+	height: 26px;
+	width: 26px;
+	color: #fff;
+	border-radius: 40%;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.iconBackground {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color: rgba(63, 63, 63, 0.94);
+	border-radius: 40%;
+	right: 24px;
+	top: 24px;
+	z-index: -4;
+}
+
+.matching{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: #fff;
+	border-radius: 5px 0 0 0;
+	padding: 10px;
+}
