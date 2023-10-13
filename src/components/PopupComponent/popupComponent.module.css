@@ -1,0 +1,36 @@
+.popup{
+    height: 520px;
+    width: 420px;
+}
+
+.imgWrap{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    height: 200px;
+    width: 400px;
+    object-fit: contain;
+}
+
+.ingredientsWrap{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #d3d3d347;;
+}
+
+.ingredient{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #753100;
+}
+
+.ingredientsList{
+    padding: 5px 15px;
+    text-transform: capitalize;
+    color: #000;
+    font-size: 16px;
+}

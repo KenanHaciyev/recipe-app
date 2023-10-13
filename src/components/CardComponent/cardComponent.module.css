@@ -17,6 +17,7 @@
 	height: 180px;
 	width: 180px;
 	object-fit: cover;
+	cursor: pointer;
 }
 
 .favourite {
@@ -29,7 +30,6 @@
 	color: #fff;
 	border-radius: 40%;
 	cursor: pointer;
-	z-index: 1;
 }
 
 .iconBackground {

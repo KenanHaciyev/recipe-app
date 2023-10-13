@@ -1,14 +1,14 @@
 import './App.css'
 import {Col, Row} from "antd";
 import HomePage from "./Layouts/HomePage";
-import HeaderComponent from "./components/HeaderComponent";
+// import HeaderComponent from "./components/HeaderComponent";
 
 function App() {
 
   return (
       <Row justify='center' >
           <Col>
-              <HeaderComponent/>
+              {/*<HeaderComponent/>*/}
               <HomePage/>
           </Col>
       </Row>
