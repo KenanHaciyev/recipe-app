@@ -1,0 +1,40 @@
+.popup{
+    height: 520px;
+    width: 420px;
+    overflow: auto;
+    padding: 5px;
+}
+
+.imgWrap{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    height: 200px;
+    width: 400px;
+    object-fit: contain;
+}
+
+.title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #753100;
+    margin-bottom: 10px;
+}
+
+.list{
+    padding: 5px 15px;
+    color: #000;
+    font-size: 16px;
+}
+
+.details{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #d3d3d347;
+    color: #000;
+    font-size: 16px;
+}

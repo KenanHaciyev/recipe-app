@@ -1,0 +1,16 @@
+.header{
+    /*width: 100vw;*/
+    height: 65px;
+    background-color: rgba(253,218,89,0.81) ;
+}
+
+.listItems{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.left{
+    display: flex;
+    gap: 30px;
+}

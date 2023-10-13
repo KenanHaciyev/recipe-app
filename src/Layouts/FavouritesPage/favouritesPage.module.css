@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 100px;
+}
+
+.cards{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px 80px;
+}
+
+.title{
+    margin: 10px 0;
+    text-align: center;
+    color: #001529;
+    font-size: 22px;
+}
