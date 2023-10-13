@@ -11,6 +11,11 @@
 	z-index: 1;
 }
 
+.card:hover .img{
+	transition: all .7s;
+	transform: scale(1.2) rotate(-12deg);
+}
+
 .img {
 	display: block;
 	margin: 0 auto;

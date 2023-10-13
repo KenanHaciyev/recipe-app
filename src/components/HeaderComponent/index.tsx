@@ -1,28 +1,26 @@
 import React from 'react';
-import {Layout} from "antd";
-import {Header} from "antd/es/layout/layout";
-import styles from './headerComponent.module.css'
+import { Layout, Menu } from 'antd';
+import { Header } from 'antd/es/layout/layout';
+import { Link } from 'react-router-dom';
+import { items } from '../../Data/headerItems.data.ts';
 
 const HeaderComponent: React.FC = () => {
-    return (
-        <Layout>
-            <Header className={styles.header} >
-                <ul className={styles.listItems} >
-                    <div className={styles.left} >
-                        <li>
-                            <a href="#">Logo</a>
-                        </li>
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                    </div>
-                    <li>
-                        <a href="#">Favourites</a>
-                    </li>
-                </ul>
-            </Header>
-        </Layout>
-    );
+	return (
+		<Layout>
+			<Header>
+				<Menu style={{ width: '25%' }} theme="dark" mode="horizontal" defaultSelectedKeys={['0']}>
+					{items.map((item, i) => {
+						return (
+							<Menu.Item key={i}>
+								{<Link to={item.url} />}
+								{item.title}
+							</Menu.Item>
+						);
+					})}
+				</Menu>
+			</Header>
+		</Layout>
+	);
 };
 
 export default HeaderComponent;

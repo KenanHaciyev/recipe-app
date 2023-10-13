@@ -1,0 +1,25 @@
+.title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #753100;
+    margin-bottom: 10px;
+}
+
+.list{
+    padding: 5px 15px;
+    color: #000;
+    font-size: 16px;
+}
+
+.instructionWrap{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #d3d3d347;
+    margin-bottom: 15px;
+}
+
+.instructionItem{
+    margin-bottom: 15px;
+    line-height: 1.2;
+}

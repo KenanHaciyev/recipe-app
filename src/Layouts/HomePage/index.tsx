@@ -1,12 +1,18 @@
+import { dishesMockData } from '../../Data/dishesMock.data.ts';
+import CardComponent from '../../components/CardComponent';
+import styles from './homePage.module.css';
 import React from 'react';
-import MainComponent from "../../components/MainComponent";
 
 const HomePage: React.FC = () => {
-    return (
-        <div>
-            <MainComponent/>
-        </div>
-    );
+	return (
+		<div className={styles.wrapper}>
+			<div className={styles.cards}>
+				{dishesMockData.map(data => {
+					return <CardComponent key={data.id} {...data} />;
+				})}
+			</div>
+		</div>
+	);
 };
 
 export default HomePage;
